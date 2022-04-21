@@ -133,4 +133,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
 # Activate Django-Heroku
-todo_list.settings(locals())
+django_heroku.settings(locals())
